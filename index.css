@@ -1,0 +1,46 @@
+@font-face {
+    font-family: fontForDays;
+    src: url(Azonix.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-color: #181516;
+}
+
+.centered-element {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-element ul{
+    line-height: 150px;
+}
+
+.centered-element ul a{
+    color: white;
+    text-decoration: none;
+
+    font-size: 40px;
+    font-family: fontForDays;
+}
+
+
+.centered-element ul a li{
+    list-style: none;
+    transition: .3s;
+}
+
+.centered-element ul a li:hover{
+    color: #c2b7ae;
+}
